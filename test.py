@@ -4,7 +4,7 @@ import requests
 
 artist = 'Jurassic 5'
 song_title = 'Quality Control'
-keywords = {'control'}
+keywords = {'control', 'like'}
 url = 'https://api.lyrics.ovh/v1/' + artist + '/' + song_title
 
 # fetch Lyrics
