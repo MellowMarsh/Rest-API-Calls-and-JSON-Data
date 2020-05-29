@@ -12,4 +12,20 @@ response = requests.get(url)
 json_data = json.loads(response.content)
 lyrics = json_data['lyrics']
 
+# add lyrics into json format
+json.dump(json_data, open('data.json', "w"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 print(lyrics)
